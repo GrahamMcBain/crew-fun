@@ -17,7 +17,7 @@ import SocialButton from "./components/SocialButton";
 
 //Step 1: Initialize the FunStore. This action configures your environment based on your apikey, chain, and the authentication methods of your choosing.
 const DEFAULT_FUN_WALLET_CONFIG = {
-  apiKey: "hnHevQR0y394nBprGrvNx4HgoZHUwMet5mXTOBhf",
+  apiKey: "Ghh4ykEwwE4C4mcGjQYUQ17RYDQFohPJ6LjKxPJE",
   chain: Goerli,
   gasSponsor: {
     sponsorAddress: "0xCB5D0b4569A39C217c243a436AC3feEe5dFeb9Ad", //Gasless payments on Goerli. Please switch to another gas sponsor method, or prefund your wallet on mainnet!
