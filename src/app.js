@@ -87,7 +87,6 @@ export default function App() {
       1.&ensp;
       <SocialButton></SocialButton>
       &ensp;
-      (Open in a new tab if using codesandbox)
       {
         activeConnections.length > 0 ?
           <div>
@@ -102,7 +101,7 @@ export default function App() {
       <button onClick={initializeGroupAuthWallet}>Initialize Crew Wallet</button>
       {account ?
         <div>
-          Success! FunWallet address: {account}
+          Success! Crewq Wallet address: {account}
         </div>
         : <></>
       }
