@@ -11,7 +11,7 @@ import {
   configureNewFunStore,
   usePrimaryAuth,
 } from "@funkit/react";
-import { useMemo } from "react";
+import { useMemo } from "react";  
 import { useState } from "react";
 import SocialButton from "./components/SocialButton";
 
@@ -83,7 +83,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>Create FunWallet with social authentication</h1>
+      <h1>Create Crew Wallet with social authentication</h1>
       1.&ensp;
       <SocialButton></SocialButton>
       &ensp;
@@ -99,7 +99,7 @@ export default function App() {
       <br></br>
 
       2.&ensp;
-      <button onClick={initializeGroupAuthWallet}>Initialize FunWallet</button>
+      <button onClick={initializeGroupAuthWallet}>Initialize Crew Wallet</button>
       {account ?
         <div>
           Success! FunWallet address: {account}
@@ -110,7 +110,7 @@ export default function App() {
       <br></br>
 
       3.&ensp;
-      <button onClick={createWallet}>Create FunWallet</button>
+      <button onClick={createWallet}>Create Crew Wallet</button>
       {loading ?
         <div>
           Loading...
